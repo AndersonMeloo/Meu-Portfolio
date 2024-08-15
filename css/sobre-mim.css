@@ -1,0 +1,35 @@
+.sobre__mim {
+    padding: 5rem 0;
+    margin: 16rem auto;
+    width: 80%;
+}
+
+.sobre__mim-titulo {
+    font-size: 22px;
+    font-family: var(--fonte-textos);
+}
+
+.sobre__mim-texto {
+    font-size: 16px;
+    font-family: var(--fonte-titulo);
+    margin-top: 6px;
+}
+
+
+.sobre__mim-titulo,
+.sobre__mim-texto {
+    text-align: left;
+    text-align: justify;
+}
+
+@media (min-width: 340px) and (max-width: 500px) {
+    .sobre__mim {
+        padding: 10px;
+        box-sizing: border-box;
+        height: auto;
+    }
+
+    .sobre__mim-texto {
+        font-size: 14px;
+    }
+}

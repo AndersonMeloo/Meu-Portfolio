@@ -1,0 +1,171 @@
+.container__projetos {
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.projetos {
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    height: auto;
+    width: 100%; 
+    max-width: 400px;
+}
+
+.projetos-1 {
+    border: 1px solid white;
+    background-image: url(../projeto-supersesportivos.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-right: none;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.projetos-2 {
+    border: 1px solid white;
+    border-left: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 2rem;
+    border-radius: 0 10px 10px 0;
+}
+
+.projeto-imagem {
+    background-image: url(../projeto-listaTarefas.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+}
+
+.projeto-texto {
+    font-family: var(--fonte-titulo);
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.projeto-botao {
+    width: 50%;
+    padding: 6px;
+    border-radius: 4px;
+    border: none;
+    background-color: #cdffff;
+    transition: 0.5s ease-out;
+    cursor: pointer;
+}
+
+.projeto-botao a {
+    border: none;
+    text-decoration: none;
+    color: black;
+    font-family: var(--fonte-titulo);
+    letter-spacing: 2px;
+}
+
+.projeto-botao:hover {
+    width: 60%;
+    transition: 1s ease-out;
+    background-color: #94e7ff;
+}
+
+.projeto-botao:hover a:hover {
+    color: white;
+    font-weight: 900;
+}
+
+.ver-projeto {
+    margin-bottom: 8px;
+}
+
+
+@media (min-width: 340px) and (max-width: 840px) {
+    .container__projetos {
+        padding: 0.5rem;
+        width: 100%;
+    }
+
+    .projetos {
+        width: 90%;
+        max-width: 400px;
+    }
+
+    .projetos-1,
+    .projetos-2 {
+        display: none; 
+        width: 100%;
+    }
+
+    .projetos-2 {
+        border-right: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        padding: 1rem;
+        border-radius: 0 10px 10px 0;
+    }
+
+    .projeto-imagem-carro {
+        background-image: url(../projeto-supersesportivos.jpg);
+        background-image: none;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vw;
+    }
+
+    .projeto-texto {
+        font-family: var(--fonte-titulo);
+        font-size: 14px;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+
+    .projeto-botao {
+        width: 60%;
+        padding: 8px;
+        border-radius: 4px;
+        border: none;
+        background-color: #cdffff;
+        transition: 0.5s ease-out;
+        cursor: pointer;
+    }
+
+    .projeto-botao a {
+        border: none;
+        text-decoration: none;
+        color: black;
+        font-family: var(--fonte-titulo);
+        letter-spacing: 2px;
+    }
+
+    .projeto-botao:hover {
+        width: 70%;
+        transition: 1s ease-out;
+        background-color: #94e7ff;
+    }
+
+    .projeto-botao:hover a:hover {
+        color: white;
+        font-weight: 900;
+    }
+
+    .ver-projeto {
+        margin-bottom: 8px;
+    }
+
+    .projetos,
+    .projeto-imagem,
+    .projeto-texto {
+        box-sizing: border-box;
+    }
+}

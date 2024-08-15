@@ -1,0 +1,52 @@
+.rodape {
+    padding: 20px;
+    margin: 0;
+    display: block;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.container__rodape {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+}
+
+.rodape-icone {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.rodape__links,
+.container__rodape > div {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.rodape__links h1,
+.rodape footer >div h2 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.rodape-link {
+    border: none;
+    background-color: #006691;
+    padding: 4px;
+    border-radius: 6px;
+}
+
+.rodape-link-texto {
+    text-decoration: none;
+    color: white;
+    font-family: var(--fonte-titulo);
+    letter-spacing: 1px;
+}

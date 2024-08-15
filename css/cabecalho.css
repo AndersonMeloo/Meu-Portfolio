@@ -1,0 +1,35 @@
+.cabecalho {
+    padding: 2rem;
+    width: auto;
+}
+
+.cabecalho__links-inicio {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.cabecalho__links {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-family: var(--fonte-titulo);
+}
+
+@media (min-width: 340px) and (max-width: 500px) {
+    .cabecalho {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .cabecalho__links-inicio {
+        gap: 10px;
+    }
+
+    .cabecalho__links {
+        font-size: 12px;
+    }
+}
